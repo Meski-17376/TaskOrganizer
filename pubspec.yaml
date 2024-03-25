@@ -1,0 +1,25 @@
+name: taskorganizer
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.1  # Replace with the actual latest version
+  cloud_firestore: ^4.15.9  # Replace with the actual latest version
+  firebase_auth: ^4.17.9  # Replace with the actual latest version
+  shared_preferences: ^2.2.2  # Replace with the actual latest version
+  cupertino_icons: ^1.0.6  # Replace with the actual latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1  # Replace with the actual latest version
+
+flutter:
+  uses-material-design: true
